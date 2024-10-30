@@ -1,0 +1,1 @@
+<?php// Obtenemos los valores del formulario$api = $_POST ['api'];$pais = $_POST ['pais'];	$sql = "UPDATE  " . $this->table_config . " SET api = '".$api."', pais = '".$pais."' WHERE id = 1 ";		//Ejecutamos la consulta	$wpdb->query ( $sql );		?><p>Data updated successfully</p>
